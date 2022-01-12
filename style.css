@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  width: 100vw;
+  /* height: 100vh; */
+
+  /* box-shadow: 0px 15px 20px rgba(8, 8, 8, 0.4); */
+  /* width: 50%;
+      */
+  /* height: 100vh; */
+}
+.section1 {
+  position: absolute;
+  top: 1rem;
+  margin-top: 2rem;
+  width: 70%;
+
+  margin-left: 4rem;
+  background: transparent;
+  align-items: center;
+  padding-left: 6rem;
+}
+.text-area {
+  color: #018066;
+}
+.icon {
+  border-radius: 50%;
+  border: 1px solid grey;
+  margin-left: 1rem;
+  padding: 6px;
+}
+.heading-container {
+  line-height: 3rem;
+}
+.input-section {
+  line-height: 3rem;
+}
+.button {
+  width: 140px;
+  height: 45px;
+  margin-left: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  border-radius: 45px;
+  border: none;
+  background-color: #018066;
+  color: white;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  outline: none;
+}
+.button:hover {
+  background-color: #2ee59d;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+form i {
+  position: absolute;
+  color: grey;
+  margin: 16px 0 0 5px;
+}
+input[type="text"] {
+  padding: 5px;
+  border-radius: 11px;
+  border: none;
+  /* box-shadow: 0px 15px 20px rgba(62, 66, 65, 0.4); */
+  border: 1px solid grey;
+}
+.second-textarea {
+  position: absolute;
+  background-color: #018066;
+  /* width: 80vw;
+   height: 100vh; */
+  margin: 0rem 0rem 0rem 35rem;
+  padding: 14rem 2rem 5rem 8rem;
+  line-height: 2rem;
+  color: white;
+  width: 30%;
+  right: 0;
+  /* height: 100%; */
+  /* animation:slideLeft 1s;
+  animation-fill-mode: forwards; */
+}
+
+.second-textarea h1 {
+  line-height: 5rem;
+}
+
+button[type="button2"] {
+  width: 140px;
+  height: 45px;
+  margin-left: 1rem;
+
+  font-weight: 500;
+  border-radius: 45px;
+  border: 1px solid white;
+  background-color: #018066;
+  color: white;
+  /* box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); */
+  cursor: pointer;
+  outline: none;
+}
+
+/* animations */
+
+@keyframes slideLeft {
+  from {
+    right: 0;
+  }
+  to {
+    right: 60%;
+  }
+}
